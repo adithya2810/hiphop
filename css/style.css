@@ -2527,3 +2527,22 @@ transition: all 0.3s ease;
 .onStep {
 opacity: 0;
 }
+@media only screen and (max-width: 600px) {
+header.init{
+background: white;
+}
+.white nav a {
+	color:black;
+}
+}
+@media only screen and (max-width: 1199px){
+#showmobile {
+    font-size: 3.1rem !important;
+    display: block;
+    color: black;
+    cursor: pointer;
+}
+.ti-menu:before {
+    content: "\e68e";
+    color: black;
+}
